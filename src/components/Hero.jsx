@@ -19,7 +19,7 @@ const Hero = () => {
               Hi, I'm <span className="highlight">Godwyn Aquino</span>
             </h1>
             <h2 className="hero-subtitle">
-              I'm a <span className="typing-text">UI/UX Designer</span>
+              I'm a <span className="typing-text">UI/UX Designer & Graphic Designer</span>
             </h2>
             <p className="hero-description">
               Passionate about creating intuitive, beautiful, and user-centered digital experiences. 

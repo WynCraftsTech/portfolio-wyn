@@ -26,6 +26,8 @@ import ineuit11 from '../assets/ineuit11.png';
 import shoes1 from '../assets/shoes1.png';
 import shoes2 from '../assets/shoes2.png';
 import shoes3 from '../assets/shoes3.png';
+import ivanCover from '../assets/Ivan_final_cover.jpg';
+
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -59,6 +61,12 @@ const Projects = () => {
       description: 'Premium headphone design project featuring modern aesthetics, ergonomic considerations.',
       image: headphoneImage,
       technologies: ['Adobe Creative Suite', 'Product Aesthetics', 'Technical Illustration']
+    },
+    {
+      title: 'Facebook Cover Design',
+      description: 'Professional cover design showcasing creative layout and visual storytelling.',
+      image: ivanCover,
+      technologies: ['Adobe Photoshop', 'Photopea']
     }
   ];
 
@@ -223,7 +231,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Ineuit Design Collection',
+      title: 'Capstone Project INEUIT',
       description: 'A comprehensive collection of innovative design concepts showcasing creative thinking, modern aesthetics, and strategic design approaches.',
       image: ineuitDesigns[0].image,
       category: 'ineuit-design',
