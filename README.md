@@ -18,3 +18,9 @@ This is my personal portfolio website built with React.js for the frontend and F
 ## Tech Stack
 Frontend: React JS
 Backend: Firebase Authentication, Firebase Firestore, Firebase Hosting  
+
+Live Demo
+https://portfolio-wyn.vercel.app/
+
+Author
+Developed by Godwyn A. Aquino
