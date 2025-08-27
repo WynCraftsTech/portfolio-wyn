@@ -988,3 +988,10 @@
     font-size: 1.1rem;
   }
 }
+
+/* Ensure Capstone (INEUIT) uses the same round arrow buttons layout */
+.ineuit-design-carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

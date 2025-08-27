@@ -5,6 +5,7 @@ import cert2 from '../assets/cert2.png';
 import cert3 from '../assets/cert3.png';
 import cert4 from '../assets/cert4.png';
 import cert5 from '../assets/cert5.png';
+import cert6 from '../assets/cert6.png';
 
 const Skills = () => {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
@@ -78,6 +79,16 @@ const Skills = () => {
       image: cert5,
       description: "Earned a certification in Ethical Hacking from Cisco, demonstrating skills in identifying and mitigating security vulnerabilities in computer systems.",
       link: "https://www.credly.com/badges/ab563187-0a48-4d9b-bd2b-ce3d27932a96"
+    }
+    ,
+    {
+      id: 6,
+      name: "Oracle Cloud Infrastracture 2023 Ai Certified Foundation Associate",
+      issuer: "Oracle",
+      date: "2023",
+      image: cert6,
+      description: "Earned a certification in Oracle Cloud Infrastracture from Oracle, demonstrating skills in building and managing cloud infrastructure.",
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=BC18F9E7FA2CF32ECEC9D91EB416FA6BD88C16910607D930E4629545DC5ED23C&fbclid=IwAR0ZisfOvkFB7Sm26y9n59UcQsEuWcO8wJfLqS3snma_bkakh1-TrFtCKZQ"
     }
   ];
 
