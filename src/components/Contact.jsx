@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import resumeFile from '../assets/Job_Resume_Aquino.pdf';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { db } from '../firebase';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,27 +28,20 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      // Send data to PHP backend
-      const response = await fetch('http://localhost/portfolio/backend/contact_handler.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
+      // Save to Firestore
+      await addDoc(collection(db, 'contacts'), {
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        createdAt: serverTimestamp()
       });
 
-      const result = await response.json();
-
-      if (result.success) {
-        setSubmitStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setSubmitStatus('error');
-        console.error('Backend error:', result.message);
-      }
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
       setSubmitStatus('error');
-      console.error('Network error:', error);
+      console.error('Firestore error:', error);
     } finally {
       setIsSubmitting(false);
     }
