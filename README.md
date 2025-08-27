@@ -19,15 +19,14 @@ This is my personal portfolio website built with React.js for the frontend and F
 Frontend: React JS
 Backend: Firebase Authentication, Firebase Firestore, Firebase Hosting  
 
-Live Demo
-View Portfolio on Vercel
+Portfolio Website Link:
+https://portfolio-wyn.vercel.app/
+
 
 Author
 
 Developed by Godwyn A. Aquino
 
 
----
 
-👉 Drop me your **actual Vercel link**, and I’ll insert it directly so you can copy-paste the finished README without editing. Would you like to share it?
 
