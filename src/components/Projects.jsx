@@ -219,8 +219,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Graphic Design Portfolio',
-      description: 'A comprehensive collection of graphic design work including product designs, marketing materials.',
+      title: 'Poster Design',
+      description: 'A collection of graphic design projects showcasing posters, product designs, and marketing materials created with a focus on clarity and impact.',
       image: graphicDesigns[0].image,
       category: 'graphic-design',
       technologies: ['Product Design','Brand Identity'],
@@ -247,7 +247,7 @@ const Projects = () => {
       description: 'A collection of innovative shoe designs showcasing modern footwear aesthetics and functionality.',
       image: shoesDesigns[0].image,
       category: 'shoes-design',
-      technologies: ['Product Design', '3D Modeling', 'Footwear Design'],
+      technologies: ['Product Design', 'Footwear Design', 'Brand Identity'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true,
@@ -259,7 +259,7 @@ const Projects = () => {
       description: 'This project is a creative exploration inspired by the iconic Travis Scott x Nike collaboration.',
       image: travis1,
       category: 'event-design',
-      technologies: ['Figma', 'Web Design', 'UI/UX'],
+      technologies: ['Figma', 'Web Design', 'Prototyping'],
       featured: false
     }
   ];

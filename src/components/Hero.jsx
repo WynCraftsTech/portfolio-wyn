@@ -22,8 +22,8 @@ const Hero = () => {
               I'm a <span className="typing-text">UI/UX Designer & Graphic Designer</span>
             </h2>
             <p className="hero-description">
-              Passionate about creating intuitive, beautiful, and user-centered digital experiences. 
-              I transform ideas into compelling designs that users love to interact with.
+            I create clear and user-friendly designs that make digital experiences easy and enjoyable. 
+            My focus is on turning ideas into practical designs that work well for users.
             </p>
             
             <div className="hero-buttons">
