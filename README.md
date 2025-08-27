@@ -20,8 +20,14 @@ Frontend: React JS
 Backend: Firebase Authentication, Firebase Firestore, Firebase Hosting  
 
 Live Demo
-https://portfolio-wyn.vercel.app/
+View Portfolio on Vercel
 
 Author
 
 Developed by Godwyn A. Aquino
+
+
+---
+
+👉 Drop me your **actual Vercel link**, and I’ll insert it directly so you can copy-paste the finished README without editing. Would you like to share it?
+
