@@ -24,8 +24,7 @@ https://portfolio-wyn.vercel.app/
 
 
 ## Author
-
-Developed by Godwyn A. Aquino
+Godwyn A. Aquino
 
 
 
