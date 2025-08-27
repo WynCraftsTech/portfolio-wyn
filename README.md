@@ -23,4 +23,5 @@ Live Demo
 https://portfolio-wyn.vercel.app/
 
 Author
-Godwyn A. Aquino
+
+Developed by Godwyn A. Aquino
